@@ -1,19 +1,13 @@
 {
-  "mode": "UNION",
+  "mode": "CUSTOM",
   "selectedColumns": [
-    "code",
     "confirmed",
     "country",
-    "critical",
     "deaths",
-    "lastChange",
-    "lastUpdate",
     "latitude",
     "longitude",
     "recovered",
-    "date",
-    "province",
-    "active"
+    "date"
   ],
   "originColumnName": "original_dataset",
   "engineParams": {
@@ -69,6 +63,41 @@
     }
   ],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "confirmed",
+            "type": "bigint"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "deaths",
+            "type": "bigint"
+          },
+          {
+            "name": "latitude",
+            "type": "double"
+          },
+          {
+            "name": "longitude",
+            "type": "double"
+          },
+          {
+            "name": "recovered",
+            "type": "bigint"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
