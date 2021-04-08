@@ -52,7 +52,7 @@
     },
     {
       "preFilter": {},
-      "originLabel": "daily",
+      "originLabel": "daily_prepared",
       "index": 1
     }
   ],
