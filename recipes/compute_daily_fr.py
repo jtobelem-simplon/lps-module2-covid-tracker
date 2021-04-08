@@ -28,7 +28,7 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 data = response.json()
 
 df = json_normalize(data)
-df['lastUpdate'] = pd.to_datetime(df.lastUpdate).map(pd.Timestamp.date)
+df['date'] = pd.to_datetime(df.lastUpdate).map(pd.Timestamp.date)
 
 
 daily_fr_df = df
