@@ -35,5 +35,5 @@ daily_fr_df = df
 
 
 # Write recipe outputs
-daily_fr = dataiku.Dataset("daily_fr")
+daily_fr = dataiku.Dataset("daily")
 daily_fr.write_with_schema(daily_fr_df)
