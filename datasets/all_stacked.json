@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617870957230
+    "lastModifiedOn": 1617870959731
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,36 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "confirmed",
+        "type": "bigint"
+      },
+      {
+        "name": "country",
+        "type": "string"
+      },
+      {
+        "name": "deaths",
+        "type": "bigint"
+      },
+      {
+        "name": "latitude",
+        "type": "double"
+      },
+      {
+        "name": "longitude",
+        "type": "double"
+      },
+      {
+        "name": "recovered",
+        "type": "bigint"
+      },
+      {
+        "name": "date",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
