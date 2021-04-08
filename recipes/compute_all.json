@@ -27,18 +27,18 @@
     "main": {
       "items": [
         {
-          "ref": "all",
+          "ref": "all_stacked",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617870842099
+    "lastModifiedOn": 1617870959852
   },
   "creationTag": {
     "versionNumber": 0,
