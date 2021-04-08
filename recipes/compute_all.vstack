@@ -57,6 +57,58 @@
     }
   ],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "originalType": "timestamp",
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "province",
+            "type": "string"
+          },
+          {
+            "originalType": "int8",
+            "name": "confirmed",
+            "type": "bigint"
+          },
+          {
+            "originalType": "int8",
+            "name": "recovered",
+            "type": "bigint"
+          },
+          {
+            "originalType": "int8",
+            "name": "deaths",
+            "type": "bigint"
+          },
+          {
+            "originalType": "int8",
+            "name": "active",
+            "type": "bigint"
+          },
+          {
+            "originalType": "text",
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "originalType": "float8",
+            "name": "latitude",
+            "type": "double"
+          },
+          {
+            "originalType": "float8",
+            "name": "longitude",
+            "type": "double"
+          }
+        ],
+        "userModified": true
+      }
+    },
     "distinct": false,
     "enabled": false
   },
