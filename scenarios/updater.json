@@ -5,11 +5,11 @@
   "name": "updater",
   "active": false,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617871173146
+    "lastModifiedOn": 1617871180105
   },
   "checklists": {
     "checklists": []
