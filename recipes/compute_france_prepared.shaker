@@ -32,7 +32,7 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "DateFormatter",
@@ -42,6 +42,20 @@
         "format": "yyyy-MM-dd",
         "timezone_id": "UTC",
         "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateFormatter",
+      "params": {
+        "inCol": "date",
+        "outCol": "date_formatted",
+        "format": "yyyy-MM-dd",
+        "timezone_id": "UTC",
+        "lang": "en_US"
       },
       "alwaysShowComment": false
     }
@@ -58,6 +72,7 @@
     "country": 100,
     "recovered": 100,
     "province": 106,
+    "date_formatted": 120,
     "latitude": 106,
     "active": 100,
     "confirmed": 113,
