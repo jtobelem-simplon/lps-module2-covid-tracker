@@ -54,6 +54,11 @@
       "preFilter": {},
       "originLabel": "daily_prepared",
       "index": 1
+    },
+    {
+      "preFilter": {},
+      "originLabel": "france",
+      "index": 2
     }
   ],
   "postFilter": {
