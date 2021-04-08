@@ -15,6 +15,10 @@
         {
           "ref": "daily_fr_prepared",
           "deps": []
+        },
+        {
+          "ref": "all",
+          "deps": []
         }
       ]
     }
@@ -30,11 +34,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617871029956
+    "lastModifiedOn": 1617871074254
   },
   "creationTag": {
     "versionNumber": 0,

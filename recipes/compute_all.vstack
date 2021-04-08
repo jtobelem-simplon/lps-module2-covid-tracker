@@ -52,6 +52,11 @@
       },
       "originLabel": "daily_fr_prepared",
       "index": 0
+    },
+    {
+      "preFilter": {},
+      "originLabel": "all",
+      "index": 1
     }
   ],
   "postFilter": {
