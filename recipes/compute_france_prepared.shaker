@@ -38,7 +38,7 @@
       "type": "DateFormatter",
       "params": {
         "inCol": "date",
-        "outCol": "date",
+        "outCol": "",
         "format": "yyyy-MM-dd",
         "timezone_id": "UTC",
         "lang": "auto"
