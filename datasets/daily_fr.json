@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617869324544
+    "lastModifiedOn": 1617869981128
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,49 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "code",
+        "type": "string"
+      },
+      {
+        "name": "confirmed",
+        "type": "bigint"
+      },
+      {
+        "name": "country",
+        "type": "string"
+      },
+      {
+        "name": "critical",
+        "type": "bigint"
+      },
+      {
+        "name": "deaths",
+        "type": "bigint"
+      },
+      {
+        "name": "lastChange",
+        "type": "string"
+      },
+      {
+        "name": "lastUpdate",
+        "type": "string"
+      },
+      {
+        "name": "latitude",
+        "type": "double"
+      },
+      {
+        "name": "longitude",
+        "type": "double"
+      },
+      {
+        "name": "recovered",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
