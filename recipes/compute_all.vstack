@@ -52,14 +52,6 @@
       },
       "originLabel": "daily_fr_prepared",
       "index": 0
-    },
-    {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "originLabel": "france",
-      "index": 1
     }
   ],
   "postFilter": {
