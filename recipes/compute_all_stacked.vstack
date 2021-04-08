@@ -1,13 +1,9 @@
 {
-  "mode": "UNION",
+  "mode": "CUSTOM",
   "selectedColumns": [
-    "code",
     "confirmed",
     "country",
-    "critical",
     "deaths",
-    "lastChange",
-    "lastUpdate",
     "latitude",
     "longitude",
     "recovered",
@@ -56,10 +52,50 @@
       },
       "originLabel": "daily_fr_prepared",
       "index": 0
+    },
+    {
+      "preFilter": {},
+      "originLabel": "france_prepared",
+      "index": 1
     }
   ],
   "postFilter": {
-    "distinct": false,
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "confirmed",
+            "type": "bigint"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "deaths",
+            "type": "bigint"
+          },
+          {
+            "name": "latitude",
+            "type": "double"
+          },
+          {
+            "name": "longitude",
+            "type": "double"
+          },
+          {
+            "name": "recovered",
+            "type": "bigint"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": true,
     "enabled": false
   },
   "addOriginColumn": false
