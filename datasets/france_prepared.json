@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617872479401
+    "lastModifiedOn": 1617873042554
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,7 +61,7 @@
       {
         "name": "date",
         "type": "string",
-        "meaning": "Date"
+        "meaning": "Text"
       },
       {
         "name": "province",
