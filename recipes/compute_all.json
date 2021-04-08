@@ -13,11 +13,11 @@
     "main": {
       "items": [
         {
-          "ref": "daily_fr_prepared",
+          "ref": "all",
           "deps": []
         },
         {
-          "ref": "all",
+          "ref": "daily",
           "deps": []
         }
       ]
@@ -34,11 +34,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617871312156
+    "lastModifiedOn": 1617871460937
   },
   "creationTag": {
     "versionNumber": 0,

@@ -46,16 +46,13 @@
   },
   "virtualInputs": [
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "originLabel": "daily_fr_prepared",
+      "preFilter": {},
+      "originLabel": "all",
       "index": 0
     },
     {
       "preFilter": {},
-      "originLabel": "all",
+      "originLabel": "daily",
       "index": 1
     }
   ],
@@ -95,7 +92,7 @@
         "userModified": false
       }
     },
-    "distinct": false,
+    "distinct": true,
     "enabled": false
   },
   "addOriginColumn": false
