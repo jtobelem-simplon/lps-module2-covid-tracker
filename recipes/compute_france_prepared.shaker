@@ -35,34 +35,6 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "DateFormatter",
-      "params": {
-        "inCol": "date",
-        "outCol": "",
-        "format": "yyyy-MM-dd",
-        "timezone_id": "UTC",
-        "lang": "auto"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "DateFormatter",
-      "params": {
-        "inCol": "date",
-        "outCol": "date_formatted",
-        "format": "yyyy-MM-dd",
-        "timezone_id": "UTC",
-        "lang": "en_US"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "DateParser",
       "params": {
         "outCol": "",
@@ -75,6 +47,20 @@
         "timezone_id": "UTC",
         "appliesTo": "SINGLE_COLUMN",
         "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateFormatter",
+      "params": {
+        "inCol": "date",
+        "outCol": "date_formatted",
+        "format": "yyyy-MM-dd",
+        "timezone_id": "UTC",
+        "lang": "en_US"
       },
       "alwaysShowComment": false
     }
