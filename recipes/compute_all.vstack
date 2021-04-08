@@ -95,7 +95,7 @@
         "userModified": false
       }
     },
-    "distinct": false,
+    "distinct": true,
     "enabled": false
   },
   "addOriginColumn": false
