@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617870656971
+    "lastModifiedOn": 1617870842021
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,10 +59,6 @@
   "schema": {
     "columns": [
       {
-        "name": "code",
-        "type": "string"
-      },
-      {
         "name": "confirmed",
         "type": "bigint"
       },
@@ -71,20 +67,8 @@
         "type": "string"
       },
       {
-        "name": "critical",
-        "type": "bigint"
-      },
-      {
         "name": "deaths",
         "type": "bigint"
-      },
-      {
-        "name": "lastChange",
-        "type": "date"
-      },
-      {
-        "name": "lastUpdate",
-        "type": "string"
       },
       {
         "name": "latitude",
@@ -100,18 +84,7 @@
       },
       {
         "name": "date",
-        "type": "string",
-        "originalType": "timestamp"
-      },
-      {
-        "name": "province",
-        "type": "string",
-        "originalType": "text"
-      },
-      {
-        "name": "active",
-        "type": "bigint",
-        "originalType": "int8"
+        "type": "string"
       }
     ],
     "userModified": true
