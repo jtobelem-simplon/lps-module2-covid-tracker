@@ -19,6 +19,10 @@
         {
           "ref": "france_prepared",
           "deps": []
+        },
+        {
+          "ref": "all",
+          "deps": []
         }
       ]
     }
@@ -34,11 +38,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617873198928
+    "lastModifiedOn": 1617873246756
   },
   "creationTag": {
     "versionNumber": 0,
