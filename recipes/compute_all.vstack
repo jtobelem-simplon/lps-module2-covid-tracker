@@ -57,7 +57,7 @@
     },
     {
       "preFilter": {},
-      "originLabel": "france",
+      "originLabel": "france_prepared",
       "index": 2
     }
   ],
